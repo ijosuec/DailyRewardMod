@@ -1,0 +1,11 @@
+{
+  "rewards": [
+    { "item": "minecraft:diamond",        "count": 1 },
+    { "item": "minecraft:gold_ingot",      "count": 4 },
+    { "item": "minecraft:iron_ingot",      "count": 8 },
+    { "item": "minecraft:emerald",         "count": 2 },
+    { "item": "minecraft:cooked_beef",     "count": 16 },
+    { "item": "minecraft:experience_bottle","count": 6 },
+    { "item": "minecraft:golden_apple",    "count": 1 }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "dailyrewards",
+	"version": "${version}",
+	"name": "DailyRewards",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/dailyrewards/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.josu.dailyrewards.DailyRewards"
+		],
+		"client": [
+			"com.josu.dailyrewards.client.DailyRewardsClient"
+		]
+	},
+	"mixins": [
+		"dailyrewards.mixins.json",
+		{
+			"config": "dailyrewards.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
