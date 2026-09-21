@@ -1,6 +1,7 @@
 package com.josu.dailyrewards;
 
-public class Reward {
-    public  String item;
-    public  int count;
+import java.util.List;
+
+/** Everything a player receives on one day of the week. */
+public record Reward(List<RewardItem> items) {
 }
